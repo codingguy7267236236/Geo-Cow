@@ -1,0 +1,564 @@
+body{
+  margin:0;
+  margin-top:-25px;
+}
+
+footer{
+  margin-left:10px;
+  margin-bottom:10px;
+  margin-top:20px;
+}
+
+p{
+  padding:15px;
+}
+
+li{
+  margin-bottom: 10px;
+}
+
+img{
+    width:100%;
+}
+
+section{
+    margin-bottom: 20px;
+    padding:10px;
+}
+
+.header{
+    display:grid;
+    margin-top:0;
+    padding:10px;
+    padding-top:30px;
+    color:white;
+    background: green;
+}
+
+.header img{
+    width: 75px;
+}
+
+.header button{
+    padding:10px;
+    width:100%;
+    font-weight: bold;
+    background:cyan;
+    color: black;
+    border:none;
+    transition-duration: 0.4s;
+}
+
+.header button:hover{
+    background: navy;
+    color: white;
+    cursor:pointer;
+    transition-duration: 0.4s;
+}
+
+.logo{
+    display:grid;
+    grid-template-areas: "logo text";
+}
+
+.logo img:hover{
+    cursor:pointer;
+}
+
+.menuBtns{
+    display:grid;
+    grid-template-areas: "home casestudies topics maths essays";
+}
+
+.menuBtns button{
+    font-size: 14px;
+    height:50px;
+}
+
+.topicBtns h2{
+  width:60%;
+  height:40px;
+  font-size:18px;
+  text-align: center;
+  color:white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  transition-duration: 0.4s;
+}
+
+.topicBtns h2:hover{
+    cursor:pointer;
+    background: blue;
+    transition-duration: 0.4s;
+}
+
+.subtopic{
+    min-height:40px;
+}
+
+.coastsbtn{
+  background: url("images/coast.jpg");
+  transition-duration: 0.4s;
+}
+
+.changingbtn{
+  background: url("images/changing.jpg");
+  transition-duration: 0.4s;
+}
+
+.hazardsbtn{
+  background: url("images/australia.jpg");
+  transition-duration: 0.4s;
+}
+
+.globalbtn{
+  background: url("images/globalsystems.jpg");
+  transition-duration: 0.4s;
+}
+
+.waterbtn{
+  background: url("images/waterbanner.jpg");
+  transition-duration: 0.4s;
+}
+
+.resourcebtn{
+  background: url("images/coal.jpg");
+  transition-duration: 0.4s;
+}
+
+.cs-holder{
+    display:grid;
+    grid-template-areas:
+    "primary" 
+    "secondary"
+    "immediate" 
+    "long";
+}
+
+.casestudy{
+    min-height:40px;
+}
+
+.alberta{
+    background: url("images/alberta.jpg") rgba(72, 72, 72, 0.7);
+    background-size: cover;
+    background-blend-mode: multiply;
+    color:white;
+}
+
+.australia{
+    background: url("images/australia.jpg") rgba(72, 72, 72, 0.7);
+    background-size: cover;
+    background-blend-mode: multiply;
+    color:white;
+}
+
+.tonga{
+    background: url("images/hunga tonga.jpg") rgba(72, 72, 72, 0.7);
+    background-size: cover;
+    background-blend-mode: multiply;
+    color:white;
+}
+
+.nyria{
+    background: url("images/nyria.jpg") rgba(72, 72, 72, 0.7);
+    background-size: cover;
+    background-blend-mode: multiply;
+    color:white;
+}
+
+.iceland{
+    background: url("images/iceland.jpg") rgba(72, 72, 72, 0.7);
+    background-size: cover;
+    background-blend-mode: multiply;
+    color:white;
+}
+
+.katrina{
+    background: url("images/katrina.jpg") rgba(72, 72, 72, 0.7);
+    background-size: cover;
+    background-blend-mode: multiply;
+    color:white;
+}
+
+.matthew{
+    background: url("images/hurricanematthew.jpg") rgba(72, 72, 72, 0.7);
+    background-size: cover;
+    background-blend-mode: multiply;
+    color:white;
+}
+
+.dafta{
+    background: url("images/dafta.jpg") rgba(72, 72, 72, 0.7);
+    background-size: cover;
+    background-blend-mode: multiply;
+    color:white;
+}
+
+.opec{
+    background: url("images/oil.jpeg") rgba(72, 72, 72, 0.7);
+    background-size: cover;
+    background-blend-mode: multiply;
+    color:white;
+}
+
+.paris{
+  background: url("images/paris.jpg") rgba(72, 72, 72, 0.7);
+  background-size: cover;
+  background-blend-mode: multiply;
+  color:white;
+}
+
+.gas{
+  background: url("images/gas.jpg") rgba(72, 72, 72, 0.7);
+  background-size: cover;
+  background-blend-mode: multiply;
+  color:white;
+}
+
+.water{
+  background: url("images/water.jpg") rgba(72, 72, 72, 0.7);
+  background-size: cover;
+  background-blend-mode: multiply;
+  color:white;
+}
+
+.coal{
+  background: url("images/coal.jpg") rgba(72, 72, 72, 0.7);
+  background-size: cover;
+  background-blend-mode: multiply;
+  color:white;
+}
+
+.copper{
+  background: url("images/copper.jpg") rgba(72, 72, 72, 0.7);
+  background-size: cover;
+  background-blend-mode: multiply;
+  color:white;
+}
+
+.energy{
+  background: url("images/energy.jpg") rgba(72, 72, 72, 0.9);
+  background-size: cover;
+  background-blend-mode: multiply;
+  color:white;
+}
+
+.shell{
+  background: url("images/shell.jpg") rgba(72, 72, 72, 0.8);
+  background-size: cover;
+  background-blend-mode: multiply;
+  color:white;
+}
+
+.gazprom{
+  background: url("images/gazprom.jpg") rgba(72, 72, 72, 0.8);
+  background-size: cover;
+  background-blend-mode: multiply;
+  color:white;
+}
+
+.bedzed{
+  background: url("images/bedzed.jpg") rgba(72, 72, 72, 0.8);
+  background-size: cover;
+  background-blend-mode: multiply;
+  color:white;
+}
+
+.norway{
+  background: url("images/haaland.jpg") rgba(72, 72, 72, 0.7);
+  background-size: cover;
+  background-blend-mode: multiply;
+  color:white;
+}
+
+.kerala{
+  background: url("images/coca.jpg") rgba(72, 72, 72, 0.7);
+  background-size: cover;
+  background-blend-mode: multiply;
+  color:white;
+}
+
+.aral{
+  background: url("images/aral.jpg") rgba(72, 72, 72, 0.7);
+  background-size: cover;
+  background-blend-mode: multiply;
+  color:white;
+}
+
+.london{
+  background: url("images/london.jpg") rgba(72, 72, 72, 0.7);
+  background-size: cover;
+  background-blend-mode: multiply;
+  color:white;
+}
+
+.threegorges{
+  background: url("images/3gorges.jpg") rgba(72, 72, 72, 0.7);
+  background-size: cover;
+  background-blend-mode: multiply;
+  color:white;
+}
+
+.chile{
+  background: url("images/chile.jpg") rgba(72, 72, 72, 0.7);
+  background-size: cover;
+  background-blend-mode: multiply;
+  color:white;
+}
+
+.wenlock{
+  background: url("images/wenlock.jpg") rgba(72, 72, 72, 0.7);
+  background-size: cover;
+  background-blend-mode: multiply;
+  color:white;
+}
+
+.sheffield{
+  background: url("images/sheffield.jpg") rgba(72, 72, 72, 0.7);
+  background-size: cover;
+  background-blend-mode: multiply;
+  color:white;
+}
+
+.ATS{
+  background: url("images/ats.jpg") rgba(72, 72, 72, 0.7);
+  background-size: cover;
+  background-blend-mode: multiply;
+  color:white;
+}
+
+.IWC{
+  background: url("images/iwc.jpg") rgba(72, 72, 72, 0.7);
+  background-size: cover;
+  background-blend-mode: multiply;
+  color:white;
+}
+
+.holderness{
+  background: url("images/holderness.jpg") rgba(72, 72, 72, 0.7);
+  background-size: cover;
+  background-blend-mode: multiply;
+  color:white;
+}
+
+.odisha{
+  background: url("images/odisha.jpg") rgba(72, 72, 72, 0.7);
+  background-size: cover;
+  background-blend-mode: multiply;
+  color:white;
+}
+
+.kiribati{
+  background: url("images/kiribati.jpg") rgba(72, 72, 72, 0.7);
+  background-size: cover;
+  background-blend-mode: multiply;
+  color:white;
+}
+
+.parkhill{
+  background: url("images/parkhill.jpg") rgba(72, 72, 72, 0.7);
+  background-size: cover;
+  background-blend-mode: multiply;
+  color:white;
+}
+
+.amsterdam{
+  background: url("images/amsterdam.jpg") rgba(72, 72, 72, 0.7);
+  background-size: cover;
+  background-blend-mode: multiply;
+  color:white;
+}
+
+.amazon{
+  background: url("images/amazon.jpg") rgba(72, 72, 72, 0.7);
+  background-size: cover;
+  background-blend-mode: multiply;
+  color:white;
+}
+
+.rivereden{
+  background: url("images/rivereden.jpg") rgba(72, 72, 72, 0.7);
+  background-size: cover;
+  background-blend-mode: multiply;
+  color:white;
+}
+
+.banana{
+  background: url("images/banana.jpg") rgba(72, 72, 72, 0.7);
+  background-size: cover;
+  background-blend-mode: multiply;
+  color:white;
+}
+
+.haitieq{
+  background: url("images/hatieq.jpg") rgba(72, 72, 72, 0.7);
+  background-size: cover;
+  background-blend-mode: multiply;
+  color:white;
+}
+
+.tohoku{
+  background: url("images/tohoku.jpg") rgba(72, 72, 72, 0.7);
+  background-size: cover;
+  background-blend-mode: multiply;
+  color:white;
+}
+
+.tips{
+  background: rgba(255, 242, 0, 0.4);
+  padding:15px 5px;
+  text-align: left;
+}
+.tips li{
+  margin-bottom: 10px;
+}
+.tips h2{
+  text-align: center;
+}
+
+.bigimg{
+  width:90%;
+}
+
+.updates{
+  padding:5px;
+  background: url("images/earth.jpg") rgba(72, 72, 72, 0.7);
+  background-size: cover;
+  background-blend-mode: multiply;
+  color:white;
+}
+
+.updates div{
+  margin-bottom: 20px;
+  padding-bottom: 30px;
+  height:auto;
+}
+
+.updates div p{
+  margin-bottom: -30px;
+}
+
+a:link{
+  color:cyan;
+}
+
+a:active{
+  color:yellow;
+}
+
+a:visited{
+  color:pink;
+}
+
+.green{
+    background:rgba(0,200,0,0.5);
+}
+
+.red{
+    background: rgba(200,0,0,0.5);
+}
+
+.blue{
+    background:rgba(0,0,200,0.5);
+}
+
+.menuswipe{
+  display:grid;
+  grid-template-areas:"side content";
+  column-gap:none;
+}
+
+.content{
+  background:blue;
+  gird-area:content;
+  width:100%;
+  min-width:100%;
+}
+
+.side{
+  background:black;
+  color:white;
+  grid-area:side;
+  width:100%;
+  min-width:100%;
+}
+
+.webpageEmbed{
+  display:grid;
+  grid-template-areas:
+  "title"
+  "description"
+  "img";
+  width:70%;
+  background:lightgray;
+}
+
+.webpageEmbed:hover{
+  cursor:pointer;
+}
+
+.webpageEmbed h3{
+  font-size:22px;
+  padding-top:12px;
+  padding-bottom:-10px;
+}
+
+.webpageEmbed p{
+  font-size:14px;
+  margin-top:-10px;
+}
+
+.webpageEmbed img{
+  width:90%;
+  margin-left:auto;
+  margin-right:auto;
+  margin-bottom:10px;
+}
+
+.disable{
+  display:none;
+}
+
+@media only screen and (min-width: 768px){
+	.cs-holder{
+        grid-template-areas:
+        "primary secondary"
+        "immediate long";
+    }
+
+  .bigimg{
+    width:50%;
+  }
+}
+
+@media only screen and (min-width: 1024px){
+	.cs-holder{
+        grid-template-areas:
+        "primary secondary immediate long";
+    }
+
+    .topicBtns h2{
+        font-size: 22px;
+        width:60%;
+        height:40px;
+        padding-top: 10px;
+        margin-bottom: 20px;
+        transition-duration: 0.4s;
+    }
+    
+    .topicBtns h2:hover{
+        cursor:pointer;
+        background: blue;
+        transition-duration: 0.4s;
+    }
+
+    .menuBtns button{
+        font-size: 18px;
+    }
+
+    .bigimg{
+      width:30%;
+    }
+}
